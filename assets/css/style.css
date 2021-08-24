@@ -5,24 +5,105 @@
     margin: 0%;
     padding: 0%;
     border: none;
-    text-decoration: none;
+    
 }
 
 body {
     font-family: sans-serif;
-    
+  
 }
+
+/* header*/
 
 #logo {
     float: left;
     font-size: 250%;
 }
 
+#logo, #nav-links {
+    line-height: 60px;
+}
+#nav-links {
+    font-size: 120%;
+    letter-spacing: 1px;
+}
+
+#nav-links li {
+    float: right;
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+#nav-links a {
+    text-decoration: none;
+}
+
+#nav-links a:hover {
+    text-decoration: underline;
+}
+
+/*main image */
+ 
+#main-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/Scarr-mountain-min.jpg') no-repeat center center;
+    background-size: cover;
+    clear: both;
+    position: relative;
+}
+
+#main-image-text {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-family: bebas neue;
+    font-size: 40px;
+    text-align: center;
+    width: 15%;
+    height: 205px;
+    position: absolute;
+    right: 20%;
+    bottom: 10%;
+}
+
+/* about us section */ 
+
+#about-us {
+   background: #5a5a44;
+   height: 600px;
+  
+}
+
+#about-us h2 {
+    color: white;
+    font-size: 250%;
+    text-align: center;
+}
+
+#about-us-image {
+    height: 500px;
+    width: 45%;
+    border: 2px solid white;
+    display: inline-block;
+    margin-left: 3%;
+    margin-right: 3%;
+   
+}
+
+#about-us-text {
+    height: 500px;
+    width: 45%;
+    border: 2px solid white;
+    display: inline-block;
+    margin-right: 3%;
+    
+}
+
+
 h1, h2 {
     font-family: Bebas Neue;
     letter-spacing: 1px;
     
 }
-
 
    
