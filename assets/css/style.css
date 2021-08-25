@@ -13,6 +13,13 @@ body {
   
 }
 
+
+h2 {
+    font-family: Bebas Neue;
+    letter-spacing: 1px;
+    padding: 15px;
+}
+
 /* header*/
 
 #logo {
@@ -133,13 +140,20 @@ body {
      margin-right: 40px;
  }
 
+/* activities page */
 
- h2 {
-    font-family: Bebas Neue;
-    letter-spacing: 1px;
-    padding: 15px;
-    
-    
+#water {
+    height: 700px;
+    clear: both;
+}
+
+#land {
+    height: 700px;
+    background: #5a5a44;;
+}
+
+#sky {
+    height: 700px;
 }
 
    
