@@ -206,6 +206,7 @@ h3 {
     margin-left: 5%;
     margin-right: 5%;
     top: 10%;
+    background: url('../images/kayak-image.jpg') no-repeat;
 }
 
 .kayaking p {
@@ -236,6 +237,7 @@ h3 {
     position: absolute;
     right: 0;
     top: 10%;
+    background: url('../images/canoe-image.jpg');
 }
 
 .canoeing p {
@@ -268,6 +270,7 @@ h3 {
     margin-right: 5%;
     position: absolute;
     top: 10%;
+    background: url('../images/archery-image.jpg');
 }
 
 .archery p {
@@ -299,6 +302,7 @@ h3 {
     right: 0%;
     position: absolute;
     top: 10%;
+    background: url('../images/rockclimbing-image.jpg');
 }
 
 .rockclimbing p {
@@ -331,6 +335,7 @@ h3 {
     margin-right: 5%;
     position: absolute;
     top: 80px;
+    background: url('../images/skywalk-image.jpg');
 }
 
 .skywalk p {
@@ -361,6 +366,7 @@ h3 {
     position: absolute;
     right: 0;
     top: 10%;
+    background-image: url('../images/petting-farm-image.jpg');
 }
 
 .petting-farm p {
