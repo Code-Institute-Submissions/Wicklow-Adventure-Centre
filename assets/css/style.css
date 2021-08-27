@@ -19,6 +19,7 @@ h2 {
     font-family: Bebas Neue;
     letter-spacing: 1px;
     padding: 15px;
+    text-align: center;
 }
 
 h3 {
@@ -95,8 +96,6 @@ h3 {
 
 #about-us h2 {
     color: white;
-    font-size: 250%;
-    text-align: center;
 }
 
 #about-us-image {
@@ -375,24 +374,88 @@ h3 {
 #camping-section {
     clear: both;
     background: #5a5a44;
-    height: 750px;
+    height: 700px;
     width: 100%;
+}
+
+#camping-section h2 {
+    color: white;
+}
+
+#camping-image {
+    float: left;
+    border: 2px solid white;
+    height: 550px;
+    width: 45%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#camping-text {
+    float: right;
+    border: 2px solid white;
+    height: 550px;
+    width: 45%;
+    margin-right: 3%;
 }
 
 /* cabin section */
 
 #cabin-section {
     background: white;
-    height: 750px;
+    height: 700px;
     width: 100%;
+}
+
+#cabin-section h2 {
+    color: #5a5a44;
+}
+
+#cabin-image {
+    float: left;
+    border: 2px solid #5a5a44;
+    height: 550px;
+    width: 45%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#cabin-text {
+    float: right;
+    border: 2px solid #5a5a44;
+    height: 550px;
+    width: 45%;
+    margin-right: 3%;
 }
 
 /* restaurant section */
 
 #restaurant-section {
     background: #5a5a44;
-    height: 750px;
+    height: 700px;
     width: 100%;
 }
+
+#restaurant-section h2 {
+    color: white;
+}
+
+#restaurant-image {
+    float: left;
+    border: 2px solid white;
+    height: 550px;
+    width: 45%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#restaurant-text {
+    float: right;
+    border: 2px solid white;
+    height: 550px;
+    width: 45%;
+    margin-right: 3%;
+}
+
 
 
