@@ -134,7 +134,7 @@ h3 {
     top: 100px;
 }
 
-/* footer */
+/* footer sections */
 
  #home-footer{
      background: #5a5a44;
@@ -148,19 +148,38 @@ h3 {
     text-align: center;
  }
 
+ #Facilities-footer {
+        background: white;
+        color: #5a5a44;
+        text-align: center;
+ }
+
  footer li {
      display: inline-block;
      text-decoration: none;
      margin-right: 40px;
  }
 
-/* activities page */
+                                        /* activities page */
 
 #water {
     height: 750px;
     clear: both;
     position: relative;
     background: #5a5a44;
+}
+
+
+#land {
+    height: 750px;
+    background: white;
+    position: relative;
+}
+
+#sky {
+    height: 750px;
+    background: #5a5a44;
+    position: relative;
 }
 
 /* kayaking section */
@@ -223,14 +242,6 @@ h3 {
     font-size: 120%;
     color: white;
 }
- 
-
-
-#land {
-    height: 750px;
-    background: white;
-    position: relative;
-} 
 
 /* archery section */
 
@@ -263,7 +274,7 @@ h3 {
     color: #5a5a44;
 }
 
-/*rockclimbing section */
+/* rockclimbing section */
 
 .rockclimbing h3 {
     position: absolute;
@@ -293,12 +304,6 @@ h3 {
     font-family: sans-serif;
     font-size: 120%;
     color: #5a5a44;
-}
-
-#sky {
-    height: 750px;
-    background: #5a5a44;
-    position: relative;
 }
 
 /* skywalk section */
@@ -363,7 +368,31 @@ h3 {
     color: white;
 }
 
+                                        /* facilities page */
+
+/* camping section */
+
+#camping-section {
+    clear: both;
+    background: #5a5a44;
+    height: 750px;
+    width: 100%;
+}
+
+/* cabin section */
+
+#cabin-section {
+    background: white;
+    height: 750px;
+    width: 100%;
+}
+
+/* restaurant section */
+
+#restaurant-section {
+    background: #5a5a44;
+    height: 750px;
+    width: 100%;
+}
 
 
-
-   
