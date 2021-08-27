@@ -27,7 +27,6 @@ h3 {
     font-family: Bebas Neue;
 }
 
-
 /* header*/
 
 #logo {
@@ -73,11 +72,11 @@ h3 {
     position: relative;
 }
 
-#main-image-text {
+#main-image p {
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
     font-family: bebas neue;
-    font-size: 40px;
+    font-size: 250%;
     text-align: center;
     width: 15%;
     height: 205px;
@@ -102,9 +101,10 @@ h3 {
     height: 550px;
     width: 45%;
     border: 2px solid white;
-    display: inline-block;
+    float: left;
     margin-left: 3%;
     margin-right: 3%;
+    background: url('../images/wicklow-image.png') no-repeat;
    
 }
 
@@ -112,10 +112,17 @@ h3 {
     height: 550px;
     width: 45%;
     border: 2px solid white;
-    display: inline-block;
+    float: right;
     margin-right: 3%;
-    
 }
+
+#about-us-text p{
+    margin: 200px 50px 0 050px;
+    font-size: 150%;
+    color: white;
+    text-align: center;
+}
+
 
 /* slideshow section */
 
