@@ -402,6 +402,7 @@ h3 {
     width: 45%;
     margin-left: 3%;
     margin-right: 3%;
+    background: url('../images/camping-image.jpg') no-repeat;
 }
 
 #camping-text {
@@ -410,6 +411,13 @@ h3 {
     height: 550px;
     width: 45%;
     margin-right: 3%;
+}
+
+#camping-text p{
+    margin: 200px 50px 0 050px;
+    font-size: 150%;
+    color: white;
+    text-align: center;
 }
 
 /* cabin section */
@@ -431,6 +439,7 @@ h3 {
     width: 45%;
     margin-left: 3%;
     margin-right: 3%;
+    background: url('../images/cabin-image.jpg')
 }
 
 #cabin-text {
@@ -439,6 +448,14 @@ h3 {
     height: 550px;
     width: 45%;
     margin-right: 3%;
+}
+
+
+#cabin-text p{
+    margin: 200px 50px 0 050px;
+    font-size: 150%;
+    color: #5a5a44;
+    text-align: center;
 }
 
 /* restaurant section */
@@ -460,6 +477,7 @@ h3 {
     width: 45%;
     margin-left: 3%;
     margin-right: 3%;
+    background: url('../images/restaurant-image.jpg')
 }
 
 #restaurant-text {
@@ -468,6 +486,13 @@ h3 {
     height: 550px;
     width: 45%;
     margin-right: 3%;
+}
+
+#restaurant-text p{
+    margin: 200px 50px 0 050px;
+    font-size: 150%;
+    color: white;
+    text-align: center;
 }
 
 
