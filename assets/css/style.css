@@ -32,7 +32,11 @@ h3 {
 #logo {
     float: left;
     color: #5a5a44;
+    margin-left: 40px;
     padding: 15px;
+    font-family: Bebas Neue;
+    font-size: 350%;
+    letter-spacing: .5px;
 }
 
 #logo, #nav-links {
@@ -145,25 +149,64 @@ h3 {
  #home-footer{
      background: #5a5a44;
      color: white;
+     font-size: 150%;
+     height: 310px;
+     padding: 20px;
      text-align: center;
+    
  }
+
+
+#home-footer a {
+    color: white;
+}
+
 
  #activity-footer {
     background: white;
     color: #5a5a44;
     text-align: center;
+    font-size: 150%;
+    height: 310px;
+    padding: 20px;
+ }
+
+ #activity-footer a {
+     color: #5a5a5a;
  }
 
  #Facilities-footer {
         background: white;
         color: #5a5a44;
         text-align: center;
+        font-size: 150%;
+        height: 310px;
+        padding: 20px;
  }
+
+ #Facilities-footer a {
+     color: #5a5a44;
+ }
+
 
  footer li {
      display: inline-block;
      text-decoration: none;
      margin-right: 40px;
+ }
+
+ footer a {
+     text-decoration: none;
+ }
+
+ footer a:hover {
+     font-weight: bold;
+     text-decoration: underline;
+ }
+
+ span {
+     font-weight: bold;
+     margin-left: 40px;
  }
 
                                         /* activities page */
