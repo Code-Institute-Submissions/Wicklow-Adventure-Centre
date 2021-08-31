@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
-
+ 
 * {
     margin: 0%;
     padding: 0%;
@@ -27,15 +26,21 @@ h3 {
     font-family: Bebas Neue;
 }
 
-/* header*/
+h4 {
+    font-size: 250%;
+    margin: 10px;
+    font-family: Bebas Neue;
+}
+
+/* header */
 
 #logo {
     float: left;
     color: #5a5a44;
-    margin-left: 40px;
+    margin-left: 20px;
     padding: 15px;
     font-family: Bebas Neue;
-    font-size: 350%;
+    font-size: 300%;
     letter-spacing: .5px;
 }
 
@@ -68,10 +73,11 @@ h3 {
 /*main image */
  
 #main-image {
-    height: 700px;
+    height: 700px ;
     width: 100%;
     background: url('../images/Scarr-mountain-min.jpg') no-repeat center center;
-    background-size: cover;
+    background-size: 100% 700px;
+    background-repeat: no-repeat;
     clear: both;
     position: relative;
 }
@@ -79,11 +85,13 @@ h3 {
 #main-image p {
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
+    padding: 20px;
     font-family: bebas neue;
-    font-size: 250%;
+    font-size: 240%;
     text-align: center;
+    overflow: hidden;
     width: 15%;
-    height: 205px;
+    height: 30%;
     position: absolute;
     right: 20%;
     bottom: 10%;
@@ -101,23 +109,24 @@ h3 {
     color: white;
 }
 
+
 #about-us-image {
-    height: 550px;
+    background: url(../images/wicklow-image.png) no-repeat;
+    background-size: 100%;
+    height: 500px;
     width: 45%;
-    border: 2px solid white;
     float: left;
     margin-left: 3%;
-    margin-right: 3%;
-    background: url('../images/wicklow-image.png') no-repeat;
-   
 }
 
 #about-us-text {
-    height: 550px;
+    height: 500px;
     width: 45%;
     border: 2px solid white;
     float: right;
     margin-right: 3%;
+    margin-left: 3%;
+   
 }
 
 #about-us-text p{
@@ -150,7 +159,7 @@ h3 {
      background: #5a5a44;
      color: white;
      font-size: 150%;
-     height: 310px;
+     height: 300px;
      padding: 20px;
      text-align: center;
     
@@ -167,7 +176,7 @@ h3 {
     color: #5a5a44;
     text-align: center;
     font-size: 150%;
-    height: 310px;
+    height: 300px;
     padding: 20px;
  }
 
@@ -180,7 +189,7 @@ h3 {
         color: #5a5a44;
         text-align: center;
         font-size: 150%;
-        height: 310px;
+        height: 300px;
         padding: 20px;
  }
 
@@ -212,7 +221,7 @@ h3 {
                                         /* activities page */
 
 #water {
-    height: 750px;
+    height: 700px;
     clear: both;
     position: relative;
     background: #5a5a44;
@@ -220,13 +229,13 @@ h3 {
 
 
 #land {
-    height: 750px;
+    height: 700px;
     background: white;
     position: relative;
 }
 
 #sky {
-    height: 750px;
+    height: 700px;
     background: #5a5a44;
     position: relative;
 }
@@ -244,19 +253,20 @@ h3 {
 #kayak-image {
     height: 480px;
     width: 42.5%;
-    border: 2px solid white;
     position: absolute;
     margin-left: 5%;
     margin-right: 5%;
     top: 10%;
     background: url('../images/kayak-image.jpg') no-repeat;
+    background-size: 100%;
+    padding: 20px;
 }
 
 .kayaking p {
     position: absolute;
     width: 42.5%;
     margin-left: 5%;
-    bottom: 12%;
+    bottom: 10%;
     font-family: sans-serif;
     font-size: 120%;
     color: white;
@@ -275,12 +285,12 @@ h3 {
 #canoe-image {
     height: 480px;
     width: 42.5%;
-    border: 2px solid white;
     margin-right: 5%;
     position: absolute;
     right: 0;
     top: 10%;
-    background: url('../images/canoe-image.jpg');
+    background: url('../images/canoe-image.jpg') no-repeat;
+    background-size: 100%;
 }
 
 .canoeing p {
@@ -288,7 +298,7 @@ h3 {
     right: 5%;
     width: 42.5%;
     margin-left: 5%;
-    bottom: 12%;
+    bottom: 10%;
     font-family: sans-serif;
     font-size: 120%;
     color: white;
@@ -307,20 +317,20 @@ h3 {
 #archery-image {
     height: 480px;
     width: 42.5%;
-    border: 2px solid #5a5a5a;
     display: inline-block;
     margin-left: 5%;
     margin-right: 5%;
     position: absolute;
     top: 10%;
-    background: url('../images/archery-image.jpg');
+    background: url('../images/archery-image.jpg') no-repeat;
+    background-size: 100%;
 }
 
 .archery p {
     position: absolute;
     width: 42.5%;
     margin-left: 5%;
-    bottom: 12%;
+    bottom: 10%;
     font-family: sans-serif;
     font-size: 120%;
     color: #5a5a44;
@@ -339,13 +349,13 @@ h3 {
 #rockclimbing-image {
     height: 480px;
     width: 42.5%;
-    border: 2px solid #5a5a5a;
     display: inline-block;
     margin-right: 5%;
     right: 0%;
     position: absolute;
     top: 10%;
-    background: url('../images/rockclimbing-image.jpg');
+    background: url('../images/rockclimbing-image.jpg') no-repeat;
+    background-size: 100%;
 }
 
 .rockclimbing p {
@@ -353,7 +363,7 @@ h3 {
     right: 5%;
     width: 42.5%;
     margin-left: 5%;
-    bottom: 12%;
+    bottom: 10%;
     font-family: sans-serif;
     font-size: 120%;
     color: #5a5a44;
@@ -372,20 +382,20 @@ h3 {
 #skywalk-image {
     height: 480px;
     width: 42.5%;
-    border: 2px solid white;
     display: inline-block;
     margin-left: 5%;
     margin-right: 5%;
     position: absolute;
-    top: 80px;
-    background: url('../images/skywalk-image.jpg');
+    top: 10%;
+    background: url('../images/skywalk-image.jpg') no-repeat;
+    background-size: 100%;
 }
 
 .skywalk p {
     position: absolute;
     width: 42.5%;
     margin-left: 5%;
-    bottom: 12%;
+    bottom: 10%;
     font-family: sans-serif;
     font-size: 120%;
     color: white;
@@ -404,12 +414,12 @@ h3 {
 #petting-farm-image {
     height: 480px;
     width: 42.5%;
-    border: 2px solid white;
     margin-right: 5%;
     position: absolute;
     right: 0;
     top: 10%;
-    background-image: url('../images/petting-farm-image.jpg');
+    background: url('../images/petting-farm-image.jpg') no-repeat;
+    background-size: 100%;
 }
 
 .petting-farm p {
@@ -417,7 +427,7 @@ h3 {
     right: 5%;
     width: 42.5%;
     margin-left: 5%;
-    bottom: 12%;
+    bottom: 10%;
     font-family: sans-serif;
     font-size: 120%;
     color: white;
@@ -430,7 +440,7 @@ h3 {
 #camping-section {
     clear: both;
     background: #5a5a44;
-    height: 700px;
+    height: 650px;
     width: 100%;
 }
 
@@ -440,34 +450,35 @@ h3 {
 
 #camping-image {
     float: left;
-    border: 2px solid white;
     height: 550px;
     width: 45%;
     margin-left: 3%;
     margin-right: 3%;
     background: url('../images/camping-image.jpg') no-repeat;
+    background-size: 100%;
+    
 }
 
 #camping-text {
     float: right;
-    border: 2px solid white;
     height: 550px;
     width: 45%;
     margin-right: 3%;
 }
 
 #camping-text p{
-    margin: 200px 50px 0 050px;
+    margin: 100px 50px;
     font-size: 150%;
     color: white;
     text-align: center;
+    line-height: 50px;
 }
 
 /* cabin section */
 
 #cabin-section {
     background: white;
-    height: 700px;
+    height: 650px;
     width: 100%;
 }
 
@@ -477,17 +488,16 @@ h3 {
 
 #cabin-image {
     float: left;
-    border: 2px solid #5a5a44;
     height: 550px;
     width: 45%;
     margin-left: 3%;
     margin-right: 3%;
-    background: url('../images/cabin-image.jpg')
+    background: url('../images/cabin-image.jpg') no-repeat;
+    background-size: 100%;
 }
 
 #cabin-text {
     float: right;
-    border: 2px solid #5a5a44;
     height: 550px;
     width: 45%;
     margin-right: 3%;
@@ -495,17 +505,18 @@ h3 {
 
 
 #cabin-text p{
-    margin: 200px 50px 0 050px;
+    margin: 100px 50px;
     font-size: 150%;
     color: #5a5a44;
     text-align: center;
+    line-height: 50px;
 }
 
 /* restaurant section */
 
 #restaurant-section {
     background: #5a5a44;
-    height: 700px;
+    height: 650px;
     width: 100%;
 }
 
@@ -515,28 +526,105 @@ h3 {
 
 #restaurant-image {
     float: left;
-    border: 2px solid white;
     height: 550px;
     width: 45%;
     margin-left: 3%;
     margin-right: 3%;
-    background: url('../images/restaurant-image.jpg')
+    background: url('../images/restaurant-image.jpg') no-repeat;
+    background-size: 100%;
 }
 
 #restaurant-text {
     float: right;
-    border: 2px solid white;
     height: 550px;
     width: 45%;
     margin-right: 3%;
 }
 
 #restaurant-text p{
-    margin: 200px 50px 0 050px;
+    margin: 100px 50px;
     font-size: 150%;
     color: white;
     text-align: center;
+    line-height: 50px;
 }
 
+/* Media queries */
 
+@media screen and (max-width: 1600px) {
+     #main-image {
+         height: 600px;
+     }
 
+     #main-image p {
+         font-size: 200%;
+         height: 30%;
+         width: 15%;
+         padding: 20px;
+     }
+
+     #about-us {
+         height: 600px;
+     }
+
+     #about-us-image {
+         height: 450px;
+     }
+
+     #about-us-text {
+         height: 400px;
+     }
+     
+     #about-us-text p {
+         margin: 150px 50px 0 50px;
+     }
+     
+     #slideshow-section{
+         height: 600px;
+     }
+
+     #slideshow {
+         height: 400px;
+         top: 100px
+     }
+
+     #water {
+         height: 650px;
+     }
+
+     #land {
+         height: 650px;
+     }
+
+     #sky {
+        height: 650px;
+         }
+     
+    #camping-section{
+        height: 600px;
+    }
+
+    #cabin-section {
+        height: 600px;
+    }
+
+    #restaurant-section {
+        height: 600px;
+    }
+
+     #home-footer {
+         font-size: 120%;
+         height: 240px;
+     }
+
+     #activity-footer {
+        font-size: 120%;
+        height: 240px;
+    }
+
+    #Facilities-footer {
+        font-size: 130%;
+    }
+
+ 
+}
