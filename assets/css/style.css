@@ -259,7 +259,7 @@ h4 {
     top: 10%;
     background: url('../images/kayak-image.jpg') no-repeat;
     background-size: 100%;
-    padding: 20px;
+    
 }
 
 .kayaking p {
@@ -551,7 +551,7 @@ h4 {
 
 /* Media queries */
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1500px) {
      #main-image {
          height: 600px;
      }
@@ -623,8 +623,196 @@ h4 {
     }
 
     #Facilities-footer {
-        font-size: 130%;
+        font-size: 120%;
     }
 
  
+}
+
+@media screen and (max-width: 1200px) {
+
+    h3 {
+        font-size: 150%;
+        
+    }
+
+    /* header */
+
+    #logo {
+        margin-left: 0px;
+    }
+
+    #nav-links {
+        clear: both;
+        float: left;
+        line-height: 20px;
+    }
+
+    #nav-links a {
+        display: inline-block;
+    }
+
+    /* about-us section */
+
+    #main-image {
+        height: 500px;
+    }
+
+    #main-image p {
+        font-size: 160%;
+        height: 30%;
+        width: 15%;
+        padding: 20px;
+    }
+
+    #about-us {
+        height: 500px;
+    }
+
+    #about-us-image {
+        height: 300px;
+        background-size: contain;
+    }
+
+    #about-us-text {
+        height: 300px;
+    }
+    
+    #about-us-text p {
+        margin: 80px 25px 0 25px;
+        line-height: 25px;
+        font-size: 110%;
+    }
+
+    /* slideshow section */
+    
+    #slideshow-section{
+        height: 500px;
+    }
+
+    #slideshow {
+        height: 300px;
+        top: 100px
+    }
+
+    /* activities page */
+
+    #water {
+        height: 480px;
+    }
+
+    .kayaking p {
+        font-size: 110%;
+        bottom: 10%;
+    } 
+
+    .canoeing p {
+        font-size: 110%;
+        bottom: 10%;
+    }
+
+    #land {
+        height: 480px;
+        font-size: 110%;
+    }
+
+    .archery p {
+        font-size: 110%;
+        bottom: 10%;
+    }
+
+    .rockclimbing p {
+        font-size: 110%;
+        bottom: 10%;
+    }
+
+    #sky {
+       height: 480px;
+        }
+
+    #skywalk-image p {
+        font-size: 110%;
+        bottom: 10%;
+    }
+
+    #skywalk-image p {
+        font-size: 110%;
+        bottom: 10%;
+    }
+
+    /* facilities page */
+    
+   #camping-section{
+       height: 450px;
+   }
+
+   #camping-image {
+       height: 300px;
+   }
+
+   #camping-text {
+       height: 300px;
+   }
+
+   #camping-section p {
+       font-size: 110%;
+       margin: 30px;
+       line-height: 40px;
+   }
+
+   #cabin-section {
+       height: 450px;
+   }
+
+   #cabin-image {
+    height: 300px;
+}
+
+   #cabin-text {
+    height: 300px;
+}
+
+   #cabin-section p {
+    font-size: 110%;
+    margin: 30px;
+    line-height: 40px;
+}
+
+   #restaurant-section {
+       height: 450px;
+   }
+
+   #restaurant-image {
+    height: 300px;
+}
+
+   #restaurant-text {
+    height: 300px;
+}
+
+   #restaurant-section p {
+    font-size: 110%;
+    margin: 30px;
+    line-height: 40px;
+}
+
+/* footer sections */
+
+    #home-footer {
+        font-size: 95%;
+        height: 220px;
+        margin-right: 20px;
+    }
+
+    #activity-footer {
+       font-size: 95%;
+       height: 220px;
+   }
+
+   #Facilities-footer {
+       font-size: 95%;
+       height: 220px;;
+   }
+
+
 }
