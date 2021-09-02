@@ -76,8 +76,8 @@ h4 {
     height: 700px ;
     width: 100%;
     background: url('../images/Scarr-mountain-min.jpg') no-repeat center center;
-    background-size: 100% 700px;
     background-repeat: no-repeat;
+    background-size: 100% 100%;
     clear: both;
     position: relative;
 }
@@ -112,15 +112,15 @@ h4 {
 
 #about-us-image {
     background: url(../images/wicklow-image.png) no-repeat;
-    background-size: 100%;
-    height: 500px;
+    background-size: 100% 100%;
+    height: 70%;
     width: 45%;
     float: left;
     margin-left: 3%;
 }
 
 #about-us-text {
-    height: 500px;
+    height: 70%;
     width: 45%;
     border: 2px solid white;
     float: right;
@@ -130,10 +130,11 @@ h4 {
 }
 
 #about-us-text p{
-    margin: 200px 50px 0 050px;
+    margin: 150px 50px 0 050px;
     font-size: 150%;
     color: white;
     text-align: center;
+    line-height: 40px;
 }
 
 
@@ -251,14 +252,14 @@ h4 {
 }
 
 #kayak-image {
-    height: 480px;
+    height: 70%;
     width: 42.5%;
     position: absolute;
     margin-left: 5%;
     margin-right: 5%;
     top: 10%;
     background: url('../images/kayak-image.jpg') no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     
 }
 
@@ -283,14 +284,14 @@ h4 {
 }
 
 #canoe-image {
-    height: 480px;
+    height: 70%;
     width: 42.5%;
     margin-right: 5%;
     position: absolute;
     right: 0;
     top: 10%;
     background: url('../images/canoe-image.jpg') no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 
 .canoeing p {
@@ -315,7 +316,7 @@ h4 {
 }
 
 #archery-image {
-    height: 480px;
+    height: 70%;
     width: 42.5%;
     display: inline-block;
     margin-left: 5%;
@@ -323,7 +324,7 @@ h4 {
     position: absolute;
     top: 10%;
     background: url('../images/archery-image.jpg') no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 
 .archery p {
@@ -347,7 +348,7 @@ h4 {
 }
 
 #rockclimbing-image {
-    height: 480px;
+    height: 70%;
     width: 42.5%;
     display: inline-block;
     margin-right: 5%;
@@ -355,7 +356,7 @@ h4 {
     position: absolute;
     top: 10%;
     background: url('../images/rockclimbing-image.jpg') no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 
 .rockclimbing p {
@@ -380,7 +381,7 @@ h4 {
 }
 
 #skywalk-image {
-    height: 480px;
+    height: 70%;
     width: 42.5%;
     display: inline-block;
     margin-left: 5%;
@@ -388,7 +389,7 @@ h4 {
     position: absolute;
     top: 10%;
     background: url('../images/skywalk-image.jpg') no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 
 .skywalk p {
@@ -412,14 +413,14 @@ h4 {
 }
 
 #petting-farm-image {
-    height: 480px;
+    height: 70%;
     width: 42.5%;
     margin-right: 5%;
     position: absolute;
     right: 0;
     top: 10%;
     background: url('../images/petting-farm-image.jpg') no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 
 .petting-farm p {
@@ -450,24 +451,24 @@ h4 {
 
 #camping-image {
     float: left;
-    height: 550px;
+    height: 70%;
     width: 45%;
     margin-left: 3%;
     margin-right: 3%;
     background: url('../images/camping-image.jpg') no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     
 }
 
 #camping-text {
     float: right;
-    height: 550px;
+    height: 70%;
     width: 45%;
     margin-right: 3%;
 }
 
 #camping-text p{
-    margin: 100px 50px;
+    margin: 80px 20px;
     font-size: 150%;
     color: white;
     text-align: center;
@@ -488,24 +489,24 @@ h4 {
 
 #cabin-image {
     float: left;
-    height: 550px;
+    height: 70%;
     width: 45%;
     margin-left: 3%;
     margin-right: 3%;
     background: url('../images/cabin-image.jpg') no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 
 #cabin-text {
     float: right;
-    height: 550px;
+    height: 70%;
     width: 45%;
     margin-right: 3%;
 }
 
 
 #cabin-text p{
-    margin: 100px 50px;
+    margin: 80px 20px;
     font-size: 150%;
     color: #5a5a44;
     text-align: center;
@@ -526,23 +527,23 @@ h4 {
 
 #restaurant-image {
     float: left;
-    height: 550px;
+    height: 70%;
     width: 45%;
     margin-left: 3%;
     margin-right: 3%;
     background: url('../images/restaurant-image.jpg') no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 
 #restaurant-text {
     float: right;
-    height: 550px;
+    height: 70%;
     width: 45%;
     margin-right: 3%;
 }
 
 #restaurant-text p{
-    margin: 100px 50px;
+    margin: 80px 20px;
     font-size: 150%;
     color: white;
     text-align: center;
@@ -552,6 +553,13 @@ h4 {
 /* Media queries */
 
 @media screen and (max-width: 1500px) {
+
+    h3 {
+        font-size: 240%;
+    }
+
+    /* main image */
+
      #main-image {
          height: 600px;
      }
@@ -563,21 +571,26 @@ h4 {
          padding: 20px;
      }
 
+     /*about us section */
+
      #about-us {
          height: 600px;
      }
 
      #about-us-image {
-         height: 450px;
+         height: 70%;
      }
 
      #about-us-text {
-         height: 400px;
+         height: 70%;
      }
      
      #about-us-text p {
-         margin: 150px 50px 0 50px;
+         margin: 120px 50px 0 50px;
+         font-size: 120%;
      }
+
+     /* slideshow sectiion */
      
      #slideshow-section{
          height: 600px;
@@ -588,21 +601,29 @@ h4 {
          top: 100px
      }
 
+     /* activities page */
+
      #water {
-         height: 650px;
+         height: 600px;
+         font-size: 80%;
      }
 
      #land {
-         height: 650px;
+         height: 600px;
+         font-size: 80%;
      }
 
      #sky {
-        height: 650px;
-         }
+        height: 600px;
+        font-size:  80%;
+    }
+
+    /* facilities page */
      
     #camping-section{
         height: 600px;
     }
+
 
     #cabin-section {
         height: 600px;
@@ -611,6 +632,8 @@ h4 {
     #restaurant-section {
         height: 600px;
     }
+
+    /* footer sections */
 
      #home-footer {
          font-size: 120%;
@@ -632,7 +655,7 @@ h4 {
 @media screen and (max-width: 1200px) {
 
     h3 {
-        font-size: 150%;
+        font-size: 240%;
         
     }
 
@@ -651,8 +674,8 @@ h4 {
     #nav-links a {
         display: inline-block;
     }
-
-    /* about-us section */
+    
+    /* main image */
 
     #main-image {
         height: 500px;
@@ -665,22 +688,23 @@ h4 {
         padding: 20px;
     }
 
+  /* about-us section */
+
     #about-us {
         height: 500px;
     }
 
     #about-us-image {
-        height: 300px;
-        background-size: contain;
+        height: 70%;
     }
 
     #about-us-text {
-        height: 300px;
+        height: 70%;
     }
     
     #about-us-text p {
         margin: 80px 25px 0 25px;
-        line-height: 25px;
+        line-height: 40px;
         font-size: 110%;
     }
 
@@ -699,46 +723,18 @@ h4 {
 
     #water {
         height: 480px;
-    }
-
-    .kayaking p {
-        font-size: 110%;
-        bottom: 10%;
-    } 
-
-    .canoeing p {
-        font-size: 110%;
-        bottom: 10%;
+        font-size: 70%;
     }
 
     #land {
         height: 480px;
-        font-size: 110%;
-    }
-
-    .archery p {
-        font-size: 110%;
-        bottom: 10%;
-    }
-
-    .rockclimbing p {
-        font-size: 110%;
-        bottom: 10%;
+        font-size: 70%;
     }
 
     #sky {
        height: 480px;
+       font-size: 70%;
         }
-
-    #skywalk-image p {
-        font-size: 110%;
-        bottom: 10%;
-    }
-
-    #skywalk-image p {
-        font-size: 110%;
-        bottom: 10%;
-    }
 
     /* facilities page */
     
@@ -747,7 +743,7 @@ h4 {
    }
 
    #camping-image {
-       height: 300px;
+       height: 60%;
    }
 
    #camping-text {
@@ -799,9 +795,9 @@ h4 {
 /* footer sections */
 
     #home-footer {
-        font-size: 95%;
-        height: 220px;
-        margin-right: 20px;
+        font-size: 90%;
+        height: 200px;
+        
     }
 
     #activity-footer {
@@ -815,4 +811,332 @@ h4 {
    }
 
 
+}
+
+@media screen and (max-width: 1000px) {
+
+    h3 {
+        font-size: 180%;
+        
+    }
+
+    /* header */
+
+    #logo {
+        margin-left: 0px;
+    }
+
+    #nav-links {
+        clear: both;
+        float: left;
+        line-height: 10px;
+    }
+
+    #nav-links a {
+        display: inline-block;
+    }
+
+    /* main image */
+
+    #main-image {
+        height: 400px;
+    }
+
+    #main-image p {
+        font-size: 130%;
+        height: 30%;
+        width: 15%;
+        padding: 20px 10px;
+        
+    }
+
+    /* about-us section */
+
+    #about-us {
+        height: 400px;
+    }
+
+    #about-us-image {
+        height: 70%;
+    }
+
+    #about-us-text {
+        height: 70%
+    }
+    
+    #about-us-text p {
+        margin: 60px 25px 0 25px;
+        line-height: 25px;
+        font-size: 100%;
+    }
+
+    /* slideshow section */
+    
+    #slideshow-section{
+        height: 500px;
+    }
+
+    #slideshow {
+        height: 300px;
+        top: 100px
+    }
+
+    /* activities page */
+
+    #water {
+        height: 400px;
+        font-size: 60%;
+    }
+
+    #land {
+        height: 400px;
+        font-size: 60%;
+    }
+
+    #sky {
+       height: 400px;
+       font-size: 60%;
+        }
+
+    /* facilities page */
+    
+   #camping-section{
+       height: 400px;
+   }
+
+   #camping-image {
+       height: 60%;
+   }
+
+   #camping-text {
+       height: 60%;
+   }
+
+   #camping-section p {
+       font-size: 90%;
+       margin: 0px;
+       line-height: 30px;
+   }
+
+   #cabin-section {
+       height: 400px;
+   }
+
+   #cabin-image {
+    height: 60%
+}
+
+   #cabin-text {
+    height: 60%;
+}
+
+   #cabin-section p {
+    font-size: 90%;
+    margin: 0px;
+    line-height: 30px;
+}
+
+   #restaurant-section {
+       height: 400px;
+   }
+
+   #restaurant-image {
+    height: 60%;
+}
+
+   #restaurant-text {
+    height: 60%;
+}
+
+   #restaurant-section p {
+    font-size: 90%;
+    margin: 0px;
+    line-height: 30px;
+}
+
+/* footer sections */
+
+    span {
+    margin-left: 10px;
+    display: block;
+     }
+
+    .social-media-links li {
+    margin-right: 10px;
+    }
+
+    #home-footer {
+        font-size: 70%;
+        height: 240px;
+        line-height: 20px;
+    }
+
+    #activity-footer {
+        font-size: 70%;
+        height: 240px;
+        line-height: 20px;
+   }
+
+   #Facilities-footer {
+    font-size: 70%;
+    height: 240px;
+    line-height: 20px;
+   }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    /* header */
+
+    #logo {
+       font-size: 150%;
+       line-height: 10px;
+    }
+
+    #nav-links li {
+        font-size: 50%;
+        margin-right: 10px;
+    }
+
+    /* main image */
+
+    #main-image p {
+        font-size: 110%;
+    }
+
+    /* about us section */
+
+    #about-us p {
+        font-size: 90%;
+        margin: 30px 10px 0 10px;
+    }
+
+    /* activities page */
+
+    #water {
+        height: 350px;
+        font-size: 40%;
+    }
+
+    #land {
+        height: 350px;
+        font-size: 40%;
+    }
+
+    #sky {
+         height: 350px;
+         font-size: 40%;
+        }
+      
+}
+
+@media screen and (max-width: 500px) {
+    
+    h4 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 10px;
+    }
+
+    h2 {
+        font-size: 10px;
+    }
+    
+    /* main image */
+
+    #main-image {
+        height: 250px
+    }
+
+    #main-image p {
+        font-size: 90%;
+        width: 30%;
+        height: 20%;
+        padding: 5px;
+    }
+ 
+    /* about us */
+
+    #about-us {
+        height: 250px;
+    }
+
+    #about-us-image {
+        height: 60%;
+    
+    }
+    
+    #about-us-text {
+        width: 40%;
+        height: 60%;
+    }
+
+
+    #about-us p {
+        font-size: 50%;
+        line-height: 10px;
+    }
+
+    /* slideshow section */
+
+    #slideshow-section {
+        height: 250px;
+    }
+
+    #slideshow {
+        top: 50px;
+        height: 150px;
+    }
+
+    /* activities */
+
+    #water {
+        height: 200px;
+        font-size: 10%;
+    }
+
+    #land {
+       height: 200px;
+       font-size: 10%;
+       
+    }
+
+    #sky {
+        height :200px;
+        font-size: 10%;
+        
+    }
+
+    #camping-section {
+        height: 200px;
+        font-size: 60%;
+        line-height: 0px;
+    }
+
+    #camping-section p {
+        line-height: 15px;
+    }
+
+    #cabin-section {
+        height: 200px;
+        font-size: 60%;
+        line-height: 0px;
+    }
+
+    #cabin-section p {
+        line-height: 15px;
+    }
+
+    #restaurant-section {
+        height: 200px;
+        font-size: 60%;
+        line-height: 0px;
+    }
+
+    #restaurant-section p {
+        line-height: 15px;
+    }
 }
