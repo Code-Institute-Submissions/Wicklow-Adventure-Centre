@@ -45,7 +45,7 @@ aswell as contact information.
 
 ### footer
 
-! [footer image]assets/images/footer-readme.jpg)
+! [footer image](assets/images/footer-readme.jpg)
 
 - The footer contains contact info such as address, contact number and email.
 - it also provides links to social media which turns bold and underlines as the user hovers over them.
