@@ -49,3 +49,12 @@ aswell as contact information.
 
 - The footer contains contact info such as address, contact number and email.
 - it also provides links to social media which turns bold and underlines as the user hovers over them.
+
+# Tests 
+
+- I have tested this page on Chrome, Firefox and Microsoft Edge.
+- I have tested that all the internal links and social media links work correctly.
+
+# Validator testing 
+
+
