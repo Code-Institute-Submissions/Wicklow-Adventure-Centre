@@ -57,4 +57,20 @@ aswell as contact information.
 
 # Validator testing 
 
+- I can confirm that there were no errors in the HTML validator test.
+- I can canfirm there were no errors found in the CSS validator test.
+- I also tested my websites accessibility and got a score of 97.
+
+! [meb.dev test](../Wicklow-Adventure-Centre/assets/images/Accessibility-test.jpg)
+
+# Credits 
+
+- Images used on this site are from wikipedia and Adobe Stock Images.
+- I used the photo editor on pixlr.com to resize and adjust Images.
+- I used The Avon activity Centre in Wicklow as a basis for my website.
+- I imported an external font using Google fonts.
+
+# Deployment
+
+- I deployed this site using GitHub pages.
 
