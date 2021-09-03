@@ -9,42 +9,43 @@ or in one of our luxurious log cabins that are perfect for a comfortable stay!
 Users of this website will find out more about the centre's activities and accomodation
 aswell as contact information.
 
+![Responsive image](../Wicklow-Adventure-Centre/assets/images/Responsive-image.png)
+
 # Features
 
 ### Navigation
 
-! [Navigation image](images/Navigation-image.jpg)
+! [Navigation image](../Wicklow-Adventure-Centre/assets/images/Navigation-image.jpg)
 
 - The navigation is displayed at the top right of the screen.
 - There are three links that are underlined when the user hovers over them.
 - The three links lead to different pages (Home, Activities and Facilities).
 - The logo on the top left of the page is linked to the home page.
 
-
 ### About us 
 
-! [About us image](images/about-readme.jpg)
+! [About us image](../Wicklow-Adventure-Centre/assets/images/about-readme.jpg)
 
 - The about section contains an image of the centre.
 - It also has some info about its history and what it offers.
 
 ### Activities 
 
-! [Activities image](images/activities-readme.jpg)
+! [Activities image](../Wicklow-Adventure-Centre/assets/images/activities-readme.jpg)
 
 - The activities page gives details about the different kinds of things you can do in the centre.
 - It also contains images of all the activities.
 
 ### Facilities
 
-! [Facilities image](images/facilities-readme.jpg)
+! [Facilities image](../Wicklow-Adventure-Centre/assets/images/facilities-readme.jpg)
 
 - The facilities page gives an insight into the campsite and log cabins available.
 - It also gives details about the restaurant and the kinds of foods served.
 
 ### footer
 
-! [footer image](images/footer-readme.jpg)
+! [footer image](../Wicklow-Adventure-Centre/assets/images/footer-readme.jpg)
 
 - The footer contains contact info such as address, contact number and email.
 - it also provides links to social media which turns bold and underlines as the user hovers over them.
