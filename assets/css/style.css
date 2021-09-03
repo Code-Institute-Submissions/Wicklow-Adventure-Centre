@@ -75,7 +75,7 @@ h4 {
 #main-image {
     height: 700px ;
     width: 100%;
-    background: url('../images/main-image.jpg') no-repeat center center;
+    background: url('../images/main-image.jpg') no-repeat center center; 
     background-repeat: no-repeat;
     background-size: 100% 100%;
     clear: both;
