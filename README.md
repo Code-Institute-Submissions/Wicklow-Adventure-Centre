@@ -74,3 +74,8 @@ aswell as contact information.
 
 - I deployed this site using GitHub pages.
 
+# Bugs 
+
+- I intended to include a slideshow on the homepage but experienced too many bugs
+  so I left it out.
+
