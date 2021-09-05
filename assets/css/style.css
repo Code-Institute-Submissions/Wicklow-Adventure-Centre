@@ -75,7 +75,7 @@ h4 {
 #main-image {
     height: 700px ;
     width: 100%;
-    background: url('../images/main-image.jpg') no-repeat center center; 
+    background: url('../images/main-image.WebP') no-repeat center center; 
     background-repeat: no-repeat;
     background-size: 100% 100%;
     clear: both;
@@ -111,7 +111,7 @@ h4 {
 
 
 #about-us-image {
-    background: url(../images/about-image.jpg) no-repeat;
+    background: url(../images/about-image.WebP) no-repeat;
     background-size: 100% 100%;
     height: 70%;
     width: 45%;
@@ -144,7 +144,6 @@ h4 {
     height: 500px;
     width: 100%;
     position: relative;
-    background: url(../images/whopper.jpg);
     background-size: 100% 100%;
 }
 
@@ -274,7 +273,7 @@ h4 {
     margin-left: 5%;
     margin-right: 5%;
     top: 10%;
-    background: url('../images/kayak-image.jpg') no-repeat;
+    background: url('../images/kayak-image.WebP') no-repeat;
     background-size: 100% 100%;
     
 }
@@ -306,7 +305,7 @@ h4 {
     position: absolute;
     right: 0;
     top: 10%;
-    background: url('../images/canoe-image.jpg') no-repeat;
+    background: url('../images/canoe-image.WebP') no-repeat;
     background-size: 100% 100%;
 }
 
@@ -339,7 +338,7 @@ h4 {
     margin-right: 5%;
     position: absolute;
     top: 10%;
-    background: url('../images/archery-image.jpg') no-repeat;
+    background: url('../images/archery-image.WebP') no-repeat;
     background-size: 100% 100%;
 }
 
@@ -371,7 +370,7 @@ h4 {
     right: 0%;
     position: absolute;
     top: 10%;
-    background: url('../images/rockclimbing-image.jpg') no-repeat;
+    background: url('../images/rockclimbing-image.WebP') no-repeat;
     background-size: 100% 100%;
 }
 
@@ -404,7 +403,7 @@ h4 {
     margin-right: 5%;
     position: absolute;
     top: 10%;
-    background: url('../images/skywalk-image.jpg') no-repeat;
+    background: url('../images/skywalk-image.WebP') no-repeat;
     background-size: 100% 100%;
 }
 
@@ -435,7 +434,7 @@ h4 {
     position: absolute;
     right: 0;
     top: 10%;
-    background: url('../images/petting-farm-image.jpg') no-repeat;
+    background: url('../images/petting-farm-image.WebP') no-repeat;
     background-size: 100% 100%;
 }
 
@@ -471,7 +470,7 @@ h4 {
     width: 45%;
     margin-left: 3%;
     margin-right: 3%;
-    background: url('../images/camping-image.jpg') no-repeat;
+    background: url('../images/camping-image.WebP') no-repeat;
     background-size: 100% 100%;
     
 }
@@ -509,7 +508,7 @@ h4 {
     width: 45%;
     margin-left: 3%;
     margin-right: 3%;
-    background: url('../images/cabin-image.jpg') no-repeat;
+    background: url('../images/cabin-image.WebP') no-repeat;
     background-size: 100% 100%;
 }
 
@@ -547,7 +546,7 @@ h4 {
     width: 45%;
     margin-left: 3%;
     margin-right: 3%;
-    background: url('../images/restaurant-image.jpg') no-repeat;
+    background: url('../images/restaurant-image.WebP') no-repeat;
     background-size: 100% 100%;
 }
 
